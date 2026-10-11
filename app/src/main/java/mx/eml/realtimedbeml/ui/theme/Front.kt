@@ -3,15 +3,15 @@ package mx.eml.realtimedbeml.ui.theme
 Scaffold(
 modifier = Modifier
 .fillMaxSize()
-.systemBarsPadding() // Añade padding automático para barras del sistema
+.systemBarsPadding() // Añade padding automático para las barras del sistema
 ) { paddingValues ->
-    // Tu contenido aquí
+    // contenido
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(paddingValues)
     ) {
-        // Contenido de la app
+        // contenido de la app
     }
 }
 */
