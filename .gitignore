@@ -1,0 +1,17 @@
+# Archivos de construcción y temporales de Gradle / Android
+*.iml
+.gradle/
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Configuración de tu entorno local (PC / Mac)
+local.properties
+.DS_Store
+
+# Configuración del IDE (Android Studio / IntelliJ)
+.idea/
+
+# Datos sensibles y claves (para repositorios públicos)
+app/google-services.json
